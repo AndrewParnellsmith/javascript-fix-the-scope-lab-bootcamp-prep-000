@@ -21,5 +21,5 @@ var theFunk = theFunction()
 return theFunk
 }
 function theFunction(string) {
-  return string
+  return string.toUpperCase
 }
