@@ -20,6 +20,6 @@ function funkyFunction() {
 var theFunk = theFunction()
 return theFunk
 }
-function theFunction() {
-  return string
+function theFunction(string) {
+  return string.toUpperCase
 }
