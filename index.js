@@ -16,10 +16,12 @@ function add2(n) {
   const two = 2
 }
 
-function funkyFunction() {
-var theFunk = theFunction()
-return theFunk
+var funkyFunction = function() {
+  return function() {
+    return "FUNKY!"
+  }
 }
-function theFunction(string) {
-  return string.toUpperCase()
-}
+
+// We want to set theFunk equal to "FUNKY!" using our funkyFunction.
+// NOTE: you only need to modify the code below this line.
+var theFunk = funkyFunction()
