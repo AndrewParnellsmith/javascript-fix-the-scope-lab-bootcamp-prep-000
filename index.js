@@ -21,5 +21,5 @@ var theFunk = theFunction()
 return theFunk
 }
 function theFunction() {
-  return `Funky!`
+  return ('string')
 }
