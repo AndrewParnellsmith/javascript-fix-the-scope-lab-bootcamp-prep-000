@@ -20,7 +20,7 @@ function funkyFunction() {
 var theFunk = theFunction()
 return theFunk
 
-console.log ('string')
+console.log ("FUNKY!")
 }
 function theFunction() {
   return ('string')
